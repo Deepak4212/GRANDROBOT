@@ -144,7 +144,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
                                                                        url="t.me/DEm0NLRd")],
                                                                                    [InlineKeyboardButton(text="ADD Deku X Hero TO YOUR GROUP",
-                                                                       url="t.me/{}?startgroup=true".format(bot.DekuXherobot)),
+                                                                       url="t.me/{}?startgroup=true".format(bot.DekuXhero)),
                                                                                    InlineKeyboardButton(text="Source Code",
                                                                        url="https://github.com/DEm0NLRd/GRANDROBOT")
                                                                                  ]]))
