@@ -140,17 +140,17 @@ def start(bot: Bot, update: Update, args: List[str]):
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
-                                                                       callback_data="help_back".format(bot.DekuXherobot)),
+                                                                       callback_data="help_back".format(bot.Midoriya_X_Hero_bot)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
                                                                        url="t.me/DEm0NLRd")],
-                                                                                   [InlineKeyboardButton(text="ADD Deku X Hero TO YOUR GROUP",
-                                                                       url="t.me/{}?startgroup=true".format(bot.DekuXheroBot)),
+                                                                                   [InlineKeyboardButton(text="ADD Midoriya Deku TO YOUR GROUP",
+                                                                       url="t.me/{}?startgroup=true".format(bot.Midoriya_X_Hero_bot)),
                                                                                    InlineKeyboardButton(text="Source Code",
                                                                        url="https://github.com/DEm0NLRd/GRANDROBOT")
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text(" I am Already ONline")
+        update.effective_message.reply_text(" I am ONline")
 
 
 def send_start(bot, update):
